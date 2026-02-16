@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>منيو غضى</title>
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    background-color: #F5F5DC;  /* خلفية الصفحة */
+    margin: 0;
+    padding: 20px;
+    direction: rtl;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* العنوان الرئيسي */
+h1 {
+    text-align: center;
+    color: #F5F5DC;               /* لون الخط */
+    background-color: #520707;    /* لون خلفية العنوان */
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+/* العناوين الفرعية */
+h2.section-title {
+    color: #520707;
+    background-color: #F5F5DC;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* كل منتج */
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F5F5DC;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.item-details {
+    flex: 1;
+    text-align: right;
+}
+
+.item-details h3 {
+    margin: 0 0 5px 0;
+    color: #520707;
+}
+
+.item-details p {
+    margin: 0;
+    color: #120404;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+    margin-top: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>غضى</h1>
+
+    <!-- قسم قهوة -->
+    <h2 class="section-title">قهوة</h2>
+    <div class="menu-item">
+        <img src="coffee1.jpg" alt="قهوة اليوم بارد">
+        <div class="item-details">
+            <h3>قهوة اليوم بارد</h3>
+            <p>قهوة مختارة بعناية ومحضره باردة لتجربة منعشة</p>
+            <div class="price">7 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="coffee2.jpg" alt="قهوة اليوم حار">
+        <div class="item-details">
+            <h3>قهوة اليوم حار</h3>
+            <p>قهوة مختاره بعناية ومحضره ساخنه لتجربة دافئة</p>
+            <div class="price">7 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="coffee3.jpg" alt="لاتيه">
+        <div class="item-details">
+            <h3>لاتيه</h3>
+            <p>قهوة بالحليب مع لمسة من الكراميل</p>
+            <div class="price">12 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="coffee4.jpg" alt="إسبريسو">
+        <div class="item-details">
+            <h3>إسبريسو</h3>
+            <p>قهوة مركزة وسريعة التحضير</p>
+            <div class="price">8 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="coffee5.jpg" alt="موكا">
+        <div class="item-details">
+            <h3>موكا</h3>
+            <p>قهوة بالشوكولاتة اللذيذة</p>
+            <div class="price">12 ريال</div>
+        </div>
+    </div>
+
+    <!-- قسم شاي -->
+    <h2 class="section-title">شاي</h2>
+    <div class="menu-item">
+        <img src="tea1.jpg" alt="شاي أحمر">
+        <div class="item-details">
+            <h3>شاي أحمر</h3>
+            <p>شاي مميز ساخن مع لمسة أعشاب</p>
+            <div class="price">5 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="tea2.jpg" alt="شاي أخضر">
+        <div class="item-details">
+            <h3>شاي أخضر</h3>
+            <p>شاي أخضر منعش وصحي</p>
+            <div class="price">6 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="tea3.jpg" alt="كرك">
+        <div class="item-details">
+            <h3>كرك</h3>
+            <p>شاي بالحليب والتوابل الهندية</p>
+            <div class="price">8 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="tea4.jpg" alt="آيس تي">
+        <div class="item-details">
+            <h3>آيس تي</h3>
+            <p>شاي مثلج منعش بالنكهات</p>
+            <div class="price">10 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="tea5.jpg" alt="شاي زنجبيل">
+        <div class="item-details">
+            <h3>شاي زنجبيل</h3>
+            <p>شاي ساخن مع الزنجبيل الطازج</p>
+            <div class="price">7 ريال</div>
+        </div>
+    </div>
+
+    <!-- قسم بوكسات فطور -->
+    <h2 class="section-title">بوكسات فطور</h2>
+    <!-- 5 أصناف بنفس الشكل -->
+    <div class="menu-item">
+        <img src="box1.jpg" alt="بوكس فطور 1">
+        <div class="item-details">
+            <h3>بوكس فطور 1</h3>
+            <p>مزيج من الفواكه والخبز الطازج</p>
+            <div class="price">20 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="box2.jpg" alt="بوكس فطور 2">
+        <div class="item-details">
+            <h3>بوكس فطور 2</h3>
+            <p>بوكس مع عصير طبيعي وخبز محمص</p>
+            <div class="price">22 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="box3.jpg" alt="بوكس فطور 3">
+        <div class="item-details">
+            <h3>بوكس فطور 3</h3>
+            <p>بوكس متكامل للفطور الصباحي</p>
+            <div class="price">25 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="box4.jpg" alt="بوكس فطور 4">
+        <div class="item-details">
+            <h3>بوكس فطور 4</h3>
+            <p>بوكس صغير مع مشروب صحي</p>
+            <div class="price">18 ريال</div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <img src="box5.jpg" alt="بوكس فطور 5">
+        <div class="item-details">
+            <h3>بوكس فطور 5</h3>
+            <p>بوكس غني بالفواكه والمكسرات</p>
+            <div class="price">23 ريال</div>
+        </div>
+    </div>
+
+    <!-- يمكنك تكرار نفس النمط لقسم مناقيش وساندوتشات -->
+</div>
+</body>
+</html>
